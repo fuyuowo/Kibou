@@ -18,11 +18,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x586A      //
-#define PRODUCT_ID      0x0065      //
-#define DEVICE_VER      0x0001      //
-#define MANUFACTURER    Kibou      //
-#define PRODUCT         suisei     //
+//#define VENDOR_ID       0x586A      //
+//#define PRODUCT_ID      0x0065      //
+//#define DEVICE_VER      0x0001      //
+//#define MANUFACTURER    Kibou      //
+//#define PRODUCT         suisei     //
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION ROW2COL
@@ -35,8 +35,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { B2, A10, A9, A8, B15, B14, B13, A15, B3, B4, B5, B6, B7, B8, C13, B9 }
 
 /*功能指示灯*/
-#define LED_CAPS_LOCK_PIN B1       
-//#define LED_SCROLL_LOCK_PIN D2        
+#define LED_CAPS_LOCK_PIN B1
+//#define LED_SCROLL_LOCK_PIN D2
 
 
 /* Set 0 if debouncing isn't needed */
